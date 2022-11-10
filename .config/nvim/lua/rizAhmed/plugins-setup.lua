@@ -36,7 +36,7 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim"
 
   -- colorschemes
-  use "bluz71/vim-nightfly-guicolors" -- preferred colorscheme
+  use "bluz71/vim-moonfly-colors" -- preferred colorscheme
 
   -- plugin for split windows navigation
   use "christoomey/vim-tmux-navigator"
