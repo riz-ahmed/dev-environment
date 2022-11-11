@@ -1,4 +1,4 @@
-# My development environment (no IDE)
+My development environment (no IDE)
 - for C, C++ as well as Embedded Systems development
 ## Tools and configuration
 - I am using Nvim Text based editor: I chose Nvim over Vim though as it has better community support (its highly likely that a new feature would come up earlier in Nvim), its seemingly faster as well as easier to configure with Lua in comparision
@@ -6,7 +6,6 @@
 
 ```
 brew install neovim
-
 ```
 ### Nvim configuration
 - the follwing plugins are installed:
