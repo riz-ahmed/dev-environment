@@ -37,3 +37,6 @@ opt.splitright = true
 
 -- text editing
 opt.iskeyword:append("-") -- ensures that the words seprated by "-" are considered as a singel word
+
+-- enable wildmenu (this enables to view command and file list options)
+opt.wildmenu = true

@@ -27,6 +27,15 @@ end
 
 return packer.startup(function(use)
 
+-- Have packer use a popup window
+packer.init {
+  display = {
+    open_fn = function()
+      return require("packer.util").float { border = "rounded" }
+    end,
+    prompt_border = "rounded", -- Border style of prompt popups.
+  },
+}
 
 -- all plugins should be bootstraped from here:
 -- necessary packages
@@ -36,7 +45,7 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim"
 
   -- colorschemes
-  use "bluz71/vim-moonfly-colors" -- preferred colorscheme
+use 'bluz71/vim-moonfly-colors'
 
   -- plugin for split windows navigation
   use "christoomey/vim-tmux-navigator"
