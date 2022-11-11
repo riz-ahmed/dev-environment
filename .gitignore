@@ -46,3 +46,4 @@ ti
 .config/iterm2
 .config/nvim/plugin
 .zprofile.macports*
+packer.nvim
