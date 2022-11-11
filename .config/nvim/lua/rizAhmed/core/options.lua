@@ -40,3 +40,5 @@ opt.iskeyword:append("-") -- ensures that the words seprated by "-" are consider
 
 -- enable wildmenu (this enables to view command and file list options)
 opt.wildmenu = true
+opt.wildignorecase = true
+--opt.wildignore+=\*.git/\*
