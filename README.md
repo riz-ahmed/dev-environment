@@ -13,7 +13,7 @@ brew install neovim
 ### Nvim configuration
 
 - the follwing plugins are installed:
-    [packer.nvim]("https://github.com/wbthomason/packer.nvim"): nvim package manager, configured to display a pop-up window during startup and update
+[packer.nvim]("https://github.com/wbthomason/packer.nvim"): nvim package manager, configured to display a pop-up window during startup and update
     - [nvim-lua/plenary.nvim]("https://github.com/nvim-lua/plenary.nvim"): contains lua funtions on which other plugins are have depencies on
     - [bluz71/vim-moonfly-colors]("https://github.com/bluz71/vim-moonfly-colors"): just a dark theme that I kind of liked
     - [christoomey/vim-tmux-navigator]("https://github.com/christoomey/vim-tmux-navigator"): TMUX navigtor which is also installed in TMUX to have a seemles navigation experience between NVIM and TMUX inside the terminal 
