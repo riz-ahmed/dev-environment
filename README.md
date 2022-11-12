@@ -28,3 +28,11 @@ brew install neovim
 - I am using _starship_ terminal configuration to in the __.zshrc__ config
 - just makes the terminal more colorful
 - for terminal emulator I am using _iTrem2_ for mac
+
+### TMUX configuration
+- For Mac M1's ensure in the TMUX config .tmux.conf that __sh__ should be the default shell to be used. I have noticed that the TMUX plugin manager _tpm_ doesn't compile in the Mac's default __zsh__ shell
+- The resize panes have been remapped to _j, k, l, h_ keys, this is done to have consistency with Nvim comfiguration
+- [christoomey/vim-tmux-navigator]("https:github.com/christoomey/vim-tmux-navigator" ) is used to switch between TMUX panes; also allows to switch between TMUX panes as well as Nvim panes/buffers
+- [tmux-plugins/tmux-resurrect]("https:github.com/tmux-plugins/tmux-resurrect"): for retaining the last saved configuration
+- [tmux-plugins/tmux-continuum]("https:github.com/tmux-plugins/tmux-continuum"): for saving the last configuration automatically
+
