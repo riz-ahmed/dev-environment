@@ -29,7 +29,8 @@ brew install neovim
 ### zsh configuration
 - I am using [starship](https://starships.rs/guide/) terminal configuration to in the __.zshrc__ config
 - just makes the terminal more colorful
-- for terminal emulator I am using _iTrem2_ for mac
+- for terminal emulator I am using __iTrem2__ for mac
+- fonts used in iTerm2: [Ubuntu Mono Nerd Fonts](https://github.com/https://gist.github.com/davidteren/898f2dcccd42d9f8680ec69a3a5d350e)
 ```
 brew install --cask iterm2
 ```
