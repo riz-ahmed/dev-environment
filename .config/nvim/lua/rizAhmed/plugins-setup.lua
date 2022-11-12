@@ -79,6 +79,9 @@ use 'bluz71/vim-moonfly-colors'
   -- nvim autopairs plugin for autocompleting the brackets and quotations
  use "windwp/nvim-autopairs" 
 
+  -- vim plugin for viewing tags such as functions and methods of a class
+  use "https://github.com/preservim/tagbar"
+
   -- according to the documenation, this should be put in the end
   if packer_bootstrap then
     require('packer').sync()
