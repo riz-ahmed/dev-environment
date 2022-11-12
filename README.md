@@ -25,6 +25,7 @@ brew install neovim
     - [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim): Status line at the botton of the text editior 
     - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim): file finder in VIM using fzf fuzzy finder plugin
     - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs): auto-pairs quotes, brackets, braces
+    - [presservim/tagbar](https://github.com/presservim/tagbar): Tagbar for code navigation (functions and methods listing) 
 
 ### zsh configuration
 - I am using [starship](https://starships.rs/guide/) terminal configuration to in the __.zshrc__ config
