@@ -43,3 +43,5 @@ brew install --cask iterm2
 - [tmux-plugins/tmux-resurrect](https:github.com/tmux-plugins/tmux-resurrect): for retaining the last saved configuration
 - [tmux-plugins/tmux-continuum](https:github.com/tmux-plugins/tmux-continuum): for saving the last configuration automatically
 
+### GCC cross compiler toolchain for ARM
+- [arm-none-eabi-gcc]{https://mynewt.apache.org/v1_5_0/get_started/native_install/cross_tools.html} - this page provides a detailed list of installing **arm-none-eabi-gcc** compiler toolchain as well as **openocd**
