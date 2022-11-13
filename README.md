@@ -27,6 +27,8 @@ brew install neovim
     - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs): auto-pairs quotes, brackets, braces
     - [presservim/tagbar](https://github.com/presservim/tagbar): Tagbar for code navigation (functions and methods listing) 
 
+---
+
 ### zsh configuration
 - I am using [starship](https://starships.rs/guide/) terminal configuration to in the __.zshrc__ config
 - just makes the terminal more colorful
@@ -35,6 +37,7 @@ brew install neovim
 ```
 brew install --cask iterm2
 ```
+---
 
 ### TMUX configuration
 - For Mac M1's ensure in the TMUX config .tmux.conf that __sh__ should be the default shell to be used. I have noticed that the TMUX plugin manager _tpm_ doesn't compile in the Mac's default __zsh__ shell
@@ -43,5 +46,7 @@ brew install --cask iterm2
 - [tmux-plugins/tmux-resurrect](https:github.com/tmux-plugins/tmux-resurrect): for retaining the last saved configuration
 - [tmux-plugins/tmux-continuum](https:github.com/tmux-plugins/tmux-continuum): for saving the last configuration automatically
 
+---
+
 ### GCC cross compiler toolchain for ARM
-- [arm-none-eabi-gcc]{https://mynewt.apache.org/v1_5_0/get_started/native_install/cross_tools.html} - this page provides a detailed list of installing **arm-none-eabi-gcc** compiler toolchain as well as **openocd**
+- [arm-none-eabi-gcc](https://mynewt.apache.org/v1_5_0/get_started/native_install/cross_tools.html) - this page provides a detailed list of installing **arm-none-eabi-gcc** compiler toolchain as well as **openocd**
