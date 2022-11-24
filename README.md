@@ -26,7 +26,8 @@ brew install neovim
     - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim): file finder in VIM using fzf fuzzy finder plugin
     - [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs): auto-pairs quotes, brackets, braces
     - [presservim/tagbar](https://github.com/presservim/tagbar): Tagbar for code navigation (functions and methods listing) 
-
+    - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter): Treesitter for better syntax highlighting and recognition
+    - [folke/which-key.nvim](https://github.com/folke/which-key.nvim): displays tipps for the keys pressed - helps in memorising the new key bindings
 ---
 
 ### zsh configuration
