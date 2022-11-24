@@ -15,11 +15,11 @@ brew install neovim
 - the follwing plugins are installed:
     - [packer.nvim](https://github.com/wbthomason/packer.nvim): nvim package manager, configured to display a pop-up window during startup and update
     - [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim): contains lua funtions on which other plugins are have depencies on
-    - [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors): just a dark theme that I kind of liked
+    - [lunarvim/darkplus.nvim](https://github.com/lunarvim/darkplus.nvim): just a dark theme that I kind of liked
     - [christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator): TMUX navigtor which is also installed in TMUX to have a seemles navigation experience between NVIM and TMUX inside the terminal 
     - [szw/vim-maximizer](https://github.com/szw/vim-maximizer): panes maximizer for NVIM 
     - [tpope/vim-surround](https://github.com/tpope/vim-surround): plugin to surround quotations, brackets, braces etc .,
-    - [vim-scripts/ReplaceWithRegister](https://github.com/tpope/vim-scripts/ReplaceWithRegister): 
+    - [vim-scripts/ReplaceWithRegister](https://github.com/tpope/vim-scripts/ReplaceWithRegister): replaces words with the values from the registers
     - [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim): auto commenting in VIM
     - [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua): VIM file explorer 
     - [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim): Status line at the botton of the text editior 
@@ -49,4 +49,11 @@ brew install --cask iterm2
 ---
 
 ### GCC cross compiler toolchain for ARM
-- [arm-none-eabi-gcc](https://mynewt.apache.org/v1_5_0/get_started/native_install/cross_tools.html) - this page provides a detailed list of installing **arm-none-eabi-gcc** compiler toolchain as well as **openocd**
+- [arm-none-eabi-gcc](https://mynewt.apache.org/v1_5_0/get_started/native_install/cross_tools.html) - this page provides a detailed list of installing the **arm-none-eabi-gcc** compiler toolchain as well as **openocd** for cross-platform debugging
+
+### GNU Make
+- Makefiles are used to automate the GNU Build Process for cross compilation
+- installing Make on Mac
+```
+brew install make
+```
