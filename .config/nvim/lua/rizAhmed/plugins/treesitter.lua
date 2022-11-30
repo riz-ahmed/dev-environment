@@ -14,6 +14,10 @@ treesitter.setup({
     indent = {
         enable = true
     },
+    -- auto tags for html
+    autotag = {
+        enable = true
+    },
     -- ensure langugae parsers installed
     ensure_installed = {
         "c",

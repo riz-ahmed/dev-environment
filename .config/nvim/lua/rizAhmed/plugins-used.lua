@@ -21,6 +21,7 @@ return packer.startup(function(use)
 
     -- colorschemek
     use "lunarvim/darkplus.nvim"
+    use "projekt0n/github-nvim-theme"
 
     -- essential lua functions used by other nvim plugins
     use "nvim-lua/plenary.nvim"
@@ -58,6 +59,9 @@ return packer.startup(function(use)
     -- autopairs quotes, braces etc.,
     use 'windwp/nvim-autopairs'
 
+    -- autotags for hmtl code
+    use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
+
     -- vim plgin for viewing fuction definitaion in the tagbar
     use 'preservim/tagbar'
 
@@ -70,6 +74,11 @@ return packer.startup(function(use)
         end,
     })
 
+    -- autocompletion
+    use("hrsh7th/nvim-cmp")                 -- actual autocompletion plugin (uses the two below for extended functionality)
+    use("hrsh7th/cmp-buffer")               -- allows the autocomplete to suggest from vim's buffer
+    use("hrsh7th/cmp-path")                 -- for file path completions
+
     -- which key: to display a guide for keybidnig (is automatically displayed while a combinaiton fo kbd is typed)
     use {
         'folke/which-key.nvim',
@@ -79,6 +88,23 @@ return packer.startup(function(use)
             }
         end
     }
+
+    -- creating markdown pages, dairy keeping, organising (like Org mode in Emacs)
+    use 'vimwiki/vimwiki'
+
+    -- previwer plugin used to preview markdown pages created using vimwiki
+    use({ "iamcco/markdown-preview.nvim",
+        run = "cd app && npm install",
+        setup = function()
+            vim.g.mkdp_filetypes = { "markdown" }
+            vim.g.mkdp_theme = 'dark'
+        end,
+        ft = { "markdown" },
+    })
+
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

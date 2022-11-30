@@ -42,3 +42,6 @@ opt.iskeyword:append("-") -- ensures that the words seprated by "-" are consider
 opt.wildmenu = true
 opt.wildignorecase = true
 --opt.wildignore+=\*.git/\*
+
+-- gui fonts for neovide
+opt.guifont = {"UbuntuMono Nerd Font", ":h20"}
